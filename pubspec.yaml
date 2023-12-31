@@ -1,0 +1,34 @@
+name: restaurant_app_1
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/local_restaurant.json
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/satoshi/Satoshi-Black.otf
+          weight: 900
+        - asset: assets/fonts/satoshi/Satoshi-Bold.otf
+          weight: 700
+        - asset: assets/fonts/satoshi/Satoshi-Medium.otf
+          weight: 500
+        - asset: assets/fonts/satoshi/Satoshi-Regular.otf
+          weight: 400
+        - asset: assets/fonts/satoshi/Satoshi-Light.otf
+          weight: 300
